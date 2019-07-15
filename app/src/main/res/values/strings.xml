@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PhaseIChallenge</string>
+    <string name="about_alc">About ALC</string>
+    <string name="my_profile">My profile</string>
+    <string name="track">Track : Android</string>
+    <string name="country">Country : Kenya</string>
+    <string name="email">Email : mwauramargaret1@gmail.ocm</string>
+    <string name="phonenumber">PhoneNumber : +254775502733</string>
+    <string name="slack">Slack : shiimwaura</string>
+</resources>
