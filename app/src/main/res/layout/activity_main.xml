@@ -6,11 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/welcome_to_alc"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/activity_b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textColor="#fff"
         android:textAllCaps="false"
-        android:padding="20dp"
+        android:padding="30dp"
         android:background="@drawable/activity_b"
         android:id="@+id/activity_b"
         android:layout_width="wrap_content"
@@ -23,9 +41,9 @@
         app:layout_constraintVertical_bias="0.221" />
 
     <Button
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textColor= "#fff"
-        android:padding="20dp"
+        android:padding="30dp"
         android:textAllCaps="false"
         android:background="@drawable/activity_c"
         android:id="@+id/activity_C"
